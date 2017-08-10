@@ -1,0 +1,110 @@
+.register-top{
+    height: 155px;
+    background: #fafafa;
+    img{
+        padding-top: 50px;
+    }
+}
+
+//register
+.register-connet{
+    background: #fafafa;
+    .register-box{
+        width: 840px;
+        height: 500px;
+        border: 1px solid #F0F0F0;
+        background: #fff;
+        margin: 0 auto 45px;
+        padding-top: 50px;
+        h1{
+            text-align: center;
+            margin-bottom: 45px;
+        }
+        .reg-center{
+            width: 340px;
+            margin: 0 auto;
+            overflow: hidden;
+            .username{
+                width: 303px;
+                height: 38px;
+                border: 1px solid #e8e8e8;
+                padding-left: 35px;
+                background: url(../img/register-1.png) no-repeat 10px center;
+            }
+            .name-prompt{
+                color: #f00;
+                line-height: 20px;
+                display: block;
+                height: 20px;
+            }
+            .yz{
+                overflow: hidden;
+                .yanzheng{
+                    width: 205px;
+                    height: 38px;
+                    border: 1px solid #e8e8e8;
+                    border-right: none;
+                    background: url(../img/register-3.png) no-repeat 10px center;
+                    padding-left: 35px;
+                    float: left;
+                }
+                .yz-num{
+                    display: block;
+                    width: 98px;
+                    height: 40px;
+                    border: 1px solid #e8e8e8;
+                    border-left: none;
+                    text-align: center;
+                    line-height: 40px;
+                    font-size: 18px;
+                    float: left;
+                    cursor: pointer;
+                }
+            }
+            .yz-prompt{
+                color: #f00;
+                line-height: 20px;
+                display: block;
+                height: 20px;
+            }
+            .password1,.password2{
+                width: 303px;
+                height: 38px;
+                margin: 0 auto;
+                border: 1px solid #e8e8e8;
+                padding-left: 35px;
+                background: url(../img/register-2.png) no-repeat 10px center;
+            }
+            .pwd1-prompt,.pwd2-prompt{
+                color: #f00;
+                line-height: 20px;
+                display: block;
+                height: 20px;
+            }
+            .login{
+                width: 340px;
+                height: 40px;
+                text-align: center;
+                line-height: 40px;
+                font-size: 18px;
+                color: #fff;
+                background: #B32424;
+                margin: 20px 0 30px;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+            p{
+                text-align: center;
+                span{
+                    color: #000;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+    .reg-foot{
+      height: 120px;
+      width: 1200px;
+      background: url(../img/reg-bg.png) no-repeat center;
+    }
+}

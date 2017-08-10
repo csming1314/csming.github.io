@@ -1,0 +1,433 @@
+//address
+.address{
+    padding: 30px 0 10px;
+    p{
+        color: #999;
+    }
+}
+
+//pro
+.pro{
+    overflow: hidden;
+    .pro-top{
+        overflow: hidden;
+        height: 660px;
+        .pro-left{
+            float: left;
+            width: 496px;
+            position: relative;
+            .magnifier{
+                .pro-box{
+                    width: 480px;
+                    height: 480px;
+                    border: 1px solid #ddd;
+                    padding: 8px;
+                    margin-bottom: 20px;
+                    img{
+                        width: 480px;
+                        height: 480px;
+                    }
+                }
+                .pro-box-big{
+                    display: none;
+                    position: absolute;
+                    top: 0;
+                    width: 480px;
+                    height: 480px;
+                    border: 1px solid #ddd;
+                    padding: 8px;
+                    margin-bottom: 20px;
+                    overflow: hidden;
+                    background: #fff;
+                    &>img{
+                        position: absolute;
+                        width: 1000px;
+                        height: 1000px;
+                    }
+                }
+                .pro-nav{
+                    width: 498px;
+                    overflow: hidden;
+                    margin-bottom: 30px;
+                    .btn-l{
+                        float: left;
+                        cursor: pointer;
+                        width: 30px;
+                        height: 75px;
+                        background: url(../img/btn-l.png) no-repeat center;
+                    }
+                    .pic{
+                        float: left;
+                        overflow: hidden;
+                        img{
+                            float: left;
+                            width: 73px;
+                            height: 73px;
+                            border: 1px solid #fff;
+                            margin: 0 5px;
+                            &:hover{
+                                border: 1px solid #C21233;
+                            }
+                        }
+                    }
+                    .btn-r{
+                        float: left;
+                        cursor: pointer;
+                        width: 30px;
+                        height: 75px;
+                        background: url(../img/btn-r.png) no-repeat center;
+                    }
+                }
+            }
+            .pro-foot{
+                a{
+                    display: inline-block;
+                    padding-left: 20px;
+                    margin-right: 10px;
+                    &:nth-child(1){
+                        background: url(../img/shoucang.png) no-repeat left center;
+                    }
+                    &:nth-child(2){
+                        background: url(../img/woxihuan.png) no-repeat left center;
+                    }
+                    .ilike{
+                        color: #C21233;
+                    }
+                }
+            }
+        }
+        .pro-right{
+            float: left;
+            margin-left: 15px;
+            width: 689px;
+            h1{
+                margin-bottom: 18px;
+            }
+            span{
+                margin-right: 40px;
+            }
+            p{
+                padding: 18px 0 15px;
+                font-size: 14px;
+                font-weight: bold;
+                color: #B01330;
+            }
+            .line{
+                border-bottom: 1px dashed #b1b1b1;
+                margin-bottom: 25px;
+            }
+            h5{
+                margin-bottom: 20px;
+                display: inline-block;
+                .price{
+                    font-size: 26px;
+                    font-weight: bolder;
+                    padding-left: 20px;
+                }
+                .odd-price{
+                    margin-right: 3px;
+                    text-decoration: line-through;
+                }
+                .youhui{
+                    padding-left: 30px;
+                    margin-right: 10px;
+                }
+                .click{
+                    text-decoration: underline;
+                    color: #B01330;
+                }
+                .peisong{
+                    padding-left: 20px;
+                    margin-right: 10px;
+                }
+                .peisong-time{
+                    color: #B01330;
+                }
+                img{
+                    display: inline-block;
+                    margin-left: 20px;
+                    width: 50px;
+                    height: 50px;
+                    border: 1px solid #ddd;
+                }
+            }
+            .jian,.jia{
+                display: inline-block;
+                width: 20px;
+                height: 20px;
+                border: 1px solid #ccc;
+                margin-right: -4px;
+                text-align: center;
+                background: #ECECE9;
+                cursor: pointer;
+            }
+            .jian{
+                margin-left: 30px;
+            }
+            .num{
+                border-bottom: 1px solid #ccc;
+                border-top: 1px solid #ccc;
+                width: 56px;
+                height: 20px;
+                display: inline-block;
+                margin-right: -3px;
+                text-align: center;
+            }
+            .buy-foot{
+                overflow: hidden;
+                .buy{
+                    float: left;
+                    width: 175px;
+                    height: 45px;
+                    background: #D11034;
+                    font-size: 16px;
+                    font-weight: bold;
+                    color: #fff;
+                    text-align: center;
+                    line-height: 45px;
+                    cursor: pointer;
+                    margin-right: 20px;
+                }
+                .add{
+                    float: left;
+                    width: 140px;
+                    height: 43px;
+                    border: 1px solid #ccc;
+                    font-weight: bold;
+                    text-align: center;
+                    line-height: 43px;
+                    cursor: pointer;
+                }
+            }
+        }
+        .pro-right-b{
+            float: left;
+            margin-left: 15px;
+            h5{
+                margin-bottom: 20px;
+                display: inline-block;
+            }
+            .jian,.jia{
+                display: inline-block;
+                width: 20px;
+                height: 20px;
+                border: 1px solid #ccc;
+                margin-right: -4px;
+                text-align: center;
+                background: #ECECE9;
+                cursor: pointer;
+            }
+            .jian{
+                margin-left: 30px;
+            }
+            .num{
+                border-bottom: 1px solid #ccc;
+                border-top: 1px solid #ccc;
+                width: 56px;
+                height: 20px;
+                display: inline-block;
+                margin-right: -3px;
+                text-align: center;
+            }
+            .buy-foot{
+                overflow: hidden;
+                .buy{
+                    float: left;
+                    width: 175px;
+                    height: 45px;
+                    background: #D11034;
+                    font-size: 16px;
+                    font-weight: bold;
+                    color: #fff;
+                    text-align: center;
+                    line-height: 45px;
+                    cursor: pointer;
+                    margin-right: 20px;
+                }
+                .add{
+                    float: left;
+                    width: 140px;
+                    height: 43px;
+                    border: 1px solid #ccc;
+                    font-weight: bold;
+                    text-align: center;
+                    line-height: 43px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    .endBuy{
+        width: 1198px;
+        height: 287px;
+        border: 1px solid #ddd;
+        position: relative;
+        margin-bottom: 30px;
+        .endBuy-top{
+            height: 33px;
+            background: #f9f9f9;
+            h3{
+                display: block;
+                width: 230px;
+                height: 33px;
+                border-top: 1px solid #B2132F;
+                text-align: center;
+                line-height: 33px;
+                color: #B2132F;
+                font-weight: bold;
+            }
+        }
+        .endBuy-content1,.endBuy-content2{
+            position: absolute;
+            background: #fff;
+            width: 1110px;
+            padding-top: 30px;
+            overflow: hidden;
+            dl{
+                float: left;
+                width: 185px;
+                dt{
+                    width: 185px;
+                    height: 155px;
+                    img{
+                        width: 155px;
+                        height: 155px;
+                        margin: auto;
+                    }
+                }
+                dd{
+                    text-align: center;
+
+                }
+                .red{
+                     color: #B2132F;
+                }
+            }
+        }
+        p{
+            padding-left: 20px;
+            text-align: right;
+            position: absolute;
+            right: 30px;
+            top: 150px;
+            cursor: pointer;
+            background: url(../img/huan.png) no-repeat left center;
+        }
+    }
+    .pro-buttom-left{
+        width: 210px;
+        float: left;
+        .other{
+            width: 208px;
+            border: 1px solid #ddd;
+            border-top: 1px solid #000;
+            margin-bottom: 20px;
+            h3{
+                height: 33px;
+                background: #f9f9f9;
+                padding-left: 10px;
+                font-weight: bold;
+                line-height: 33px;
+            }
+            a{
+                display: inline-block;
+                width: 49px;
+                height: 17px;
+                margin: 7px 10px;
+                &:hover{
+                    color: #B00000;
+                }
+            }
+        }
+        img{
+            margin-bottom: 20px;
+        }
+    }
+    .pro-buttom-right{
+        width: 970px;
+        float: right;
+        .pro-buttom-nav{
+            border-left: 1px solid #ddd;
+            border-top: 1px solid #ddd;
+            height: 50px;
+            background: #f2f2f2;
+            .nav-l-box{
+                .nav-1,.nav-2,.nav-3,.nav-4{
+                    width: 120px;
+                    height: 50px;
+                    float: left;
+                    text-align: center;
+                    line-height: 50px;
+                    font-size: 14px;
+                    font-weight: bold;
+                    cursor: pointer;
+                }
+                .nav-1,.nav-2,.nav-3{
+                    border-right: 1px solid #ddd;
+                }
+                .nav-4{
+                    span{
+                        color: #b00000;
+                    }
+                }
+                .nav-1{
+                    background: #fff;
+                    border-top: 1px solid #b00000;
+                }
+            }
+            .nav-r-box{
+                .nav-buy{
+                    float: right;
+                    width: 150px;
+                    height: 50px;
+                    background: #c21233;
+                    text-align: center;
+                    line-height: 50px;
+                    color: #fff;
+                    font-size: 14px;
+                    cursor: pointer;
+                }
+                .nav-daogou{
+                    float: right;
+                    width: 150px;
+                    height: 50px;
+                    text-align: center;
+                    line-height: 50px;
+                    background: url(../img/daogou.png) no-repeat 20px center;
+                    font-size: 14px;
+                    cursor: pointer;
+                }
+            }
+
+        }
+        .pro-nr-box{
+            width: 970px;
+            height: 2788px;
+            position: relative;
+            .pro-nr{
+                position: absolute;
+                top: 0;
+                width: 969px;
+            }
+            .pro-detail{
+                display: block;
+                height: 2788px;
+                img{
+                    width: 969px;
+                    height: 2788px;
+                }
+            }
+            .pro-brand{
+                display: none;
+
+            }
+            .pro-maintain{
+                display: none;
+            }
+            .pro-evaluate{
+                display: none;
+            }
+        }
+
+    }
+}

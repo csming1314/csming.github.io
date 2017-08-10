@@ -1,0 +1,101 @@
+
+{
+  "title":[
+    {"tt":"顶级品牌","brand":["百达翡丽","柏高","亨利·慕时","积家"],
+      "hf":["https://www.wbiao.cn/patek-philippe-watches/",
+        "https://www.wbiao.cn/paul-picot-watches/",
+        "https://www.wbiao.cn/moser-watches/",
+        "https://www.wbiao.cn/jaeger-lecoultre-watches/"]},
+    {"tt":"奢华品牌","brand":["欧米伽","库尔沃","格拉苏蒂·莫勒"],
+      "hf":["https://www.wbiao.cn/omega-watches/",
+        "https://www.wbiao.cn/cys-watches/",
+        "https://www.wbiao.cn/muehle-glashutte-watches/"]},
+    {"tt":"轻奢品牌","brand":["天梭","赫柏林","浪琴","迪沃斯"],
+      "hf":["https://www.wbiao.cn/tissot-watches/",
+        "https://www.wbiao.cn/michel-herbelin-watches/",
+        "https://www.wbiao.cn/longines-watches/",
+        "https://www.wbiao.cn/davosa-watches/"]},
+    {"tt":"时尚、潮牌","brand":["卡西欧","MINI","CK","阿玛尼","DW"],
+      "hf":["https://www.wbiao.cn/casio-watches/",
+        "https://www.wbiao.cn/mini-watches/",
+        "https://www.wbiao.cn/ck-watches/",
+        "https://www.wbiao.cn/armani-watches/",
+        "https://www.wbiao.cn/dw-watches/"]},
+    {"tt":"智能表、国产表","brand":["飞亚达","华为","海鸥","唯路时","表带"],
+      "hf":["https://www.wbiao.cn/fiyta-watches/",
+        "https://www.wbiao.cn/huawei-watches/",
+        "https://www.wbiao.cn/seagull-watches/",
+        "https://www.wbiao.cn/jonasverus-watches/",
+        "https://www.wbiao.cn/peijian/biaodai/"]}
+  ],
+
+  "xl":[
+    {
+      "img":["<img src='img/1-1.png'>","<img src='img/1-2.png'>",
+        "<img src='img/1-3.png'>","<img src='img/1-4.png'>",
+        "<img src='img/1-5.png'>","<img src='img/1-6.png'>",
+        "<img src='img/1-7.png'>","<img src='img/1-8.png'>"],
+      "name":["百达翡丽","柏高","亨利·慕时","积家","江诗丹顿","伯爵","宝肌","宝珀"],
+      "jx":["柏高","亨利·慕时","百达翡丽","江诗丹顿","宝玑","宝珀","积家","朗格","格拉苏蒂·原创","爱彼","伯爵","雅克德罗","芝柏","雅典","法穆兰"],
+      "cx":["表中之王，百达翡丽","柏高，倍受推崇的独立制表","艾美达，全球限量款","珍惜罕有，亨利·慕时"],
+      "href":["https://www.wbiao.cn/patek-philippe-watches/","https://www.wbiao.cn/patek-philippe-watches/",
+        "https://www.wbiao.cn/patek-philippe-watches/","https://www.wbiao.cn/patek-philippe-watches/",
+        "https://www.wbiao.cn/patek-philippe-watches/","https://www.wbiao.cn/patek-philippe-watches/",
+        "https://www.wbiao.cn/patek-philippe-watches/","https://www.wbiao.cn/patek-philippe-watches/"]
+    },
+    {
+      "img":["<img src='img/1-5.png'>","<img src='img/1-1.png'>",
+        "<img src='img/1-7.png'>","<img src='img/1-8.png'>",
+        "<img src='img/1-2.png'>","<img src='img/1-7.png'>",
+        "<img src='img/1-4.png'>","<img src='img/1-4.png'>"],
+      "name":["百达翡丽","柏高","亨利·慕时","积家","江诗丹顿","伯爵","宝肌","宝珀"],
+      "jx":["诺美纳","库尔沃","瑞宝","宝珀","积家","格拉苏蒂·莫勒","宇博","宝珀","积家","格拉苏蒂·原创","爱彼","伯爵","雅克德罗","芝柏","雅典","法穆兰"],
+      "cx":["欧米茄5.7折起","劳力士100%正品","原装德表·莫勒","丘吉尔、爱因斯坦同款"],
+      "href":["https://www.wbiao.cn/patek-philippe-watches/","https://www.wbiao.cn/patek-philippe-watches/",
+        "https://www.wbiao.cn/patek-philippe-watches/","https://www.wbiao.cn/patek-philippe-watches/",
+        "https://www.wbiao.cn/patek-philippe-watches/","https://www.wbiao.cn/patek-philippe-watches/",
+        "https://www.wbiao.cn/patek-philippe-watches/","https://www.wbiao.cn/patek-philippe-watches/"]
+    },
+    {
+      "img":["<img src='img/1-1.png'>","<img src='img/1-2.png'>",
+        "<img src='img/1-6.png'>","<img src='img/1-3.png'>",
+        "<img src='img/1-5.png'>","<img src='img/1-8.png'>",
+        "<img src='img/1-4.png'>","<img src='img/1-8.png'>"],
+      "name":["百达翡丽","柏高","亨利·慕时","积家","江诗丹顿","伯爵","宝肌","宝珀"],
+      "jx":["爱保时","汉密尔顿","菲拉格慕","江诗丹顿","宝玑","爱彼","格拉苏蒂·原创","爱彼","伯爵","雅克德罗","芝柏","雅典","法穆兰"],
+      "cx":["天梭5.9折起","赫柏林","浪琴名匠6.9折起","潜水表+商务表两用","荣汉斯"],
+      "href":["https://www.wbiao.cn/patek-philippe-watches/","https://www.wbiao.cn/patek-philippe-watches/",
+        "https://www.wbiao.cn/patek-philippe-watches/","https://www.wbiao.cn/patek-philippe-watches/",
+        "https://www.wbiao.cn/patek-philippe-watches/","https://www.wbiao.cn/patek-philippe-watches/",
+        "https://www.wbiao.cn/patek-philippe-watches/","https://www.wbiao.cn/patek-philippe-watches/"]
+    },
+    {
+      "img":["<img src='img/1-7.png'>","<img src='img/1-6.png'>",
+        "<img src='img/1-3.png'>","<img src='img/1-4.png'>",
+        "<img src='img/1-3.png'>","<img src='img/1-5.png'>",
+        "<img src='img/1-7.png'>","<img src='img/1-8.png'>"],
+      "name":["百达翡丽","柏高","亨利·慕时","积家","江诗丹顿","伯爵","宝肌","宝珀"],
+      "jx":["DKNY","Tommy","百达翡丽","江诗丹顿","宝玑","宝珀","积家","朗格","格拉苏蒂·原创","爱彼","伯爵","雅克德罗","芝柏","雅典","法穆兰"],
+      "cx":["潮牌CHIC","CIGA Design-设计师品牌","卡西欧G-SHOCK","DW入驻，全球明星推荐"],
+      "href":["https://www.wbiao.cn/patek-philippe-watches/","https://www.wbiao.cn/patek-philippe-watches/",
+        "https://www.wbiao.cn/patek-philippe-watches/","https://www.wbiao.cn/patek-philippe-watches/",
+        "https://www.wbiao.cn/patek-philippe-watches/","https://www.wbiao.cn/patek-philippe-watches/",
+        "https://www.wbiao.cn/patek-philippe-watches/","https://www.wbiao.cn/patek-philippe-watches/"]
+    },
+    {
+      "img":["<img src='img/1-1.png'>","<img src='img/1-2.png'>",
+        "<img src='img/1-4.png'>","<img src='img/1-4.png'>",
+        "<img src='img/1-2.png'>","<img src='img/1-8.png'>",
+        "<img src='img/1-7.png'>","<img src='img/1-8.png'>"],
+      "name":["百达翡丽","柏高","亨利·慕时","积家","江诗丹顿","伯爵","宝肌","宝珀"],
+      "jx":["飞亚达","亨利·慕时","上海","江诗丹顿","宝玑","宝珀","北京","朗格","格拉苏蒂·原创","爱彼","伯爵","雅克德罗","芝柏","雅典","法穆兰"],
+      "cx":["天铭-有个性的手表","海鸥表2.5折起","飞亚达","表带推荐","华为智能手表"],
+      "href":["https://www.wbiao.cn/patek-philippe-watches/","https://www.wbiao.cn/patek-philippe-watches/",
+        "https://www.wbiao.cn/patek-philippe-watches/","https://www.wbiao.cn/patek-philippe-watches/",
+        "https://www.wbiao.cn/patek-philippe-watches/","https://www.wbiao.cn/patek-philippe-watches/",
+        "https://www.wbiao.cn/patek-philippe-watches/","https://www.wbiao.cn/patek-philippe-watches/"]
+    }
+  ],
+
+  "xl-title":["顶级品牌","精选推荐","促销精选"]
+}

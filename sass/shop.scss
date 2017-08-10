@@ -1,0 +1,123 @@
+.shop-top{
+    overflow: hidden;
+    margin-bottom: 30px;
+    .shop-nav{
+      float: right;
+        height: 50px;
+        span,a{
+            padding: 0 5px;
+            line-height: 50px;
+            b{
+                color: #b00000;
+                font-weight: bold;
+            }
+        }
+        a:hover{
+            color: #b00000;
+        }
+    }
+    .liucheng{
+        float: right;
+        width: 1200px;
+        height: 100px;
+        img:nth-child(1){
+            float: left;
+        }
+        img:nth-child(2){
+            float: right;
+            margin-top: 25px;
+        }
+    }
+}
+
+.shop-list{
+    h2{
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    .title{
+        margin: 0 auto;
+        width: 925px;
+        height: 44px;
+        background: #EBEAE9;
+        border-bottom: 1px dashed #cdcdcd;
+        li{
+            float: left;
+            padding-left: 30px;
+            line-height: 44px;
+            &:nth-child(1){
+                width: 464px;
+            }
+            &:nth-child(2){
+                width: 88px;
+            }
+            &:nth-child(3){
+                width: 84px;
+            }
+            &:nth-child(4){
+                width: 69px;
+            }
+            &:nth-child(5){
+                width: 70px;
+            }
+        }
+    }
+    .shop-information{
+        width: 925px;
+        margin: 0 auto;
+        ul{
+            background: #EBEAE9;
+            height: 125px;
+            li{
+                float: left;
+                line-height: 44px;
+              //border:1px solid red;
+                &:nth-child(1){
+                    width: 485px;
+                    overflow: hidden;
+                    img{
+                      width: 100px;
+                      height: 100px;
+                      border: 1px solid #ddd;
+                      float: left;
+                      margin-top: 10px;
+                      margin-left: 50px;
+                    }
+                    p{
+                      width: 270px;
+                      height: 90px;
+                      float: left;
+                      margin-left: 25px;
+                      margin-top: 20px;
+                      font-size: 14px;
+                      line-height: 20px;
+                    }
+                }
+                &:nth-child(2){
+                    text-align: center;
+                    width: 118px;
+                    line-height: 120px;
+                    text-decoration: line-through;
+                }
+                &:nth-child(3){
+                    width: 114px;
+                    text-align: center;
+                    line-height: 120px;
+                    color: #b00000;
+                    font-weight: bold;
+                }
+                &:nth-child(4){
+                    width: 99px;
+                    text-align: center;
+                    line-height: 120px;
+                }
+                &:nth-child(5){
+                    width: 100px;
+                    text-align: center;
+                    line-height: 120px;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}

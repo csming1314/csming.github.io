@@ -1,0 +1,82 @@
+//header
+.login-top{
+    height: 90px;
+}
+
+//login-connet
+.login-connet{
+    background: #f1f1f1;
+    .layout{
+        height: 480px;
+        background: url(../img/banner-1.jpg) no-repeat -440px center;
+        background-size: 1675px 480px;
+        position: relative;
+        .login-box{
+            position: absolute;
+            top: 40px;
+            right: 70px;
+            width: 310px;
+            height: 370px;
+            background: #fff;
+            box-shadow: 0 0 5px #666;
+            padding: 30px 0 0 30px;
+            h2{
+                margin-bottom: 15px;
+            }
+            .username{
+                width: 245px;
+                height: 38px;
+                padding-left: 35px;
+                background: url(../img/login-1.png) no-repeat 10px center;
+                border: 1px solid #ccc;
+                font-size: 14px;
+            }
+            .name-prompt{
+                //display: none;
+                margin-bottom: 20px;
+                color: #f00;
+            }
+            .password{
+                width: 245px;
+                height: 38px;
+                padding-left: 35px;
+                background: url(../img/login-2.png) no-repeat 10px center;
+                border: 1px solid #ccc;
+                font-size: 14px;
+            }
+            .pwd-prompt{
+                //display: none;
+                margin-bottom: 20px;
+                color: #f00;
+            }
+            .denglu{
+                width: 278px;
+                height: 40px;
+                background: #CE0000;
+                border: 1px solid #B10101;
+                border-radius: 5px;
+                font-size: 20px;
+                line-height: 40px;
+                text-align: center;
+                color: #fff;
+                cursor: pointer;
+                margin: 18px 0 20px;
+            }
+            .forget{
+                width: 282px;
+                overflow: hidden;
+                a{
+                    &:nth-child(1){
+                        float: left;
+                    }
+                    &:nth-child(2){
+                        float: right;
+                    }
+                    &:hover{
+                        color: #CE0000;
+                    }
+                }
+            }
+        }
+    }
+}
